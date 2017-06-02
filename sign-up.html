@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Data Alumni 14</title>
+
+    <!-- CSS-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet"> 
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="sign-up">
+      <div class="container">
+
+        <div class="row wr-sign-up">
+          <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+            <div id="tab" class="btn-group tab-menu" data-toggle="buttons-radio">
+              <a href="#form-verif" class="verif active" data-toggle="tab">VERIFICATION KEY</a>
+              <a href="#form-regis" class="register" data-toggle="tab">SIGN UP</a>
+            </div><!--END OF .TAB-MENU-->
+            <div class="tab-content form-verif">
+              <div class="tab-pane active" id="form-verif">
+                  <form role="form">
+                    <fieldset>
+                        <h2 class="text-center">Verification Key</h2>
+                        <hr class="colorgraph">
+                        <input type="password" name="password" class="pass form-control input-lg" placeholder="Enter Key...">
+                        <div class="form-checkbox">
+                            <input type="checkbox" class="show-pass" id="show-pass"> <span>Show Key</span>
+                        </div>
+                        <hr class="colorgraph">
+                        <button type="button" class="btn btn-success btn-block btn-lg">
+                            <i class="fa fa-check" aria-hidden="true"></i> Verification
+                        </button>
+                    </fieldset>
+                </form>
+              </div><!--END OF #FORM-VERIF-->
+              <div class="tab-pane" id="form-regis">
+                <form role="form">
+                    <fieldset>
+                        <h2 class="text-center">Please Sign Up</h2>
+                        <hr class="colorgraph">
+                        <table>
+                            <tr>
+                                <td class="first-name">
+                                    <input type="text" class="form-control input-lg" placeholder="First Name...">
+                                </td>
+                                <td class="last-name">
+                                    <input type="text" class="form-control input-lg" placeholder="Last Name...">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <div class="kelas">
+                                        <select class=" select form-control input-lg" id="kelas">
+                                            <option>
+                                                <p>IPA 1</p>
+                                            </option>
+                                            <option>
+                                                <p>IPA 2</p>
+                                            </option>
+                                            <option>
+                                                <p>IPA 3</p>
+                                            </option>
+                                            <option>
+                                                <p>IPA 4</p>
+                                            </option>
+                                            <option>
+                                                <p>IPS 1</p>
+                                            </option>
+                                            <option>
+                                                <p>IPS 2</p>
+                                            </option>
+                                            <option>
+                                                <p>IPS 3</p>
+                                            </option>
+                                        </select>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <input type="email" class="form-control input-lg" placeholder="Email Address...">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <input type="password" name="password" class="pass form-control input-lg" placeholder="Password...">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <input type="password" name="password" class="pass form-control input-lg" placeholder="Re-Password...">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <input type="text" class="form-control input-lg" placeholder="Phone Number...">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <input type="text" class="form-control input-lg" placeholder="Whatsapp Number...">
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="form-checkbox">
+                            <input type="checkbox" class="show-pass" id="show-pass"> <span>Show Password</span>
+                        </div>
+                        <hr class="colorgraph">
+                        <button type="button" class="btn btn-success btn-block btn-lg">
+                            <i class="fa fa-user-plus" aria-hidden="true"></i> Sign Up
+                        </button>
+                    </fieldset>
+                </form>
+              </div><!--END OF #FORM-REGIS-->
+            </div><!--END OF .FORM-VERIF-->
+          </div>
+        </div><!--END OF .WR-SIGN-UP-->
+
+      </div>
+    </div><!--END OF .SIGN-UP-->
+
+    <script type="text/javascript">
+
+    // script untuk remember me
+      $(function(){
+          $('.button-checkbox').each(function(){
+          var $widget = $(this),
+            $button = $widget.find('button'),
+            $checkbox = $widget.find('input:checkbox'),
+            color = $button.data('color'),
+            settings = {
+                on: {
+                  icon: 'glyphicon glyphicon-check'
+                },
+                off: {
+                  icon: 'glyphicon glyphicon-unchecked'
+                }
+            };
+
+          $button.on('click', function () {
+            $checkbox.prop('checked', !$checkbox.is(':checked'));
+            $checkbox.triggerHandler('change');
+            updateDisplay();
+          });
+
+          $checkbox.on('change', function () {
+            updateDisplay();
+          });
+
+          function updateDisplay() {
+            var isChecked = $checkbox.is(':checked');
+            // Set the button's state
+            $button.data('state', (isChecked) ? "on" : "off");
+
+            // Set the button's icon
+            $button.find('.state-icon')
+              .removeClass()
+              .addClass('state-icon ' + settings[$button.data('state')].icon);
+
+            // Update the button's color
+            if (isChecked) {
+              $button
+                .removeClass('btn-default')
+                .addClass('btn-' + color + ' active');
+            }
+            else
+            {
+              $button
+                .removeClass('btn-' + color + ' active')
+                .addClass('btn-default');
+            }
+          }
+          function init() {
+            updateDisplay();
+            // Inject the icon if applicable
+            if ($button.find('.state-icon').length == 0) {
+              $button.prepend('<i class="state-icon ' + settings[$button.data('state')].icon + '"></i> ');
+            }
+          }
+          init();
+        });
+      });
+
+      // script untuk show password
+      $(document).ready(function() {
+        $('.show-pass').click(function() {
+            if($(this).is(':checked')){
+                $('.pass').attr('type','text');
+            } else {
+                $('.pass').attr('type','password');
+            }
+        });
+      });
+    </script>
+
+  </body>
+</html>

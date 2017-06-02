@@ -1,0 +1,37 @@
+//----------MENU-SIDE----------//
+.menu-side {
+    .dropdown-menu-custom {
+        li {
+            a {
+                color: $hitam;
+                padding: 10px 90px 10px 15px;
+                font-family: 'Open Sans', sans-serif;
+                letter-spacing: 2px;
+                -webkit-transition: .2s color ease-in, .2s background-color ease-in;
+                -moz-transition: .2s color ease-in, .2s background-color ease-in; 
+                -ms-transition: .2s color ease-in, .2s background-color ease-in;
+                -o-transition: .2s color ease-in, .2s background-color ease-in;
+                transition: .2s color ease-in, .2s background-color ease-in;
+            }
+            a:hover {
+                text-decoration: none;
+                color: $hijau;
+                background-color: #f5f5f5;
+            }
+            .aktif {
+                color: $hijau;
+            }
+            list-style: none;
+            height: 40px;
+            padding: 10px 0px;
+        }
+        padding: 0px;
+        margin: 0px;
+    }
+    position: absolute;
+    background-color: #fff;
+    width: 150px;
+    z-index: 99;
+    box-shadow: $shadow-dropdown;
+    border: 1px solid $grey;
+}

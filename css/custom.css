@@ -1,0 +1,297 @@
+body h1, body h2, body h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px; }
+body h4, body h5, body h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 3px; }
+
+.login .colorgraph {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4); }
+.login .wr-login {
+  margin-top: 100px; }
+  .login .wr-login form h2 {
+    margin: 0px; }
+  .login .wr-login form a.forgot-pass {
+    color: #47A1DE;
+    -webkit-transition: .2s color ease-in;
+    -moz-transition: .2s color ease-in;
+    -ms-transition: .2s color ease-in;
+    -o-transition: .2s color ease-in;
+    transition: .2s color ease-in; }
+  .login .wr-login form a.forgot-pass:hover {
+    text-decoration: none;
+    color: #29292A; }
+  .login .wr-login form button.submit, .login .wr-login form a.register {
+    font-family: 'PT Serif', serif;
+    letter-spacing: 3px;
+    -webkit-transition: .2s background-color ease-in;
+    -moz-transition: .2s background-color ease-in;
+    -ms-transition: .2s background-color ease-in;
+    -o-transition: .2s background-color ease-in;
+    transition: .2s background-color ease-in; }
+  .login .wr-login form button.submit:hover, .login .wr-login form a.register:hover {
+    background-color: #29292A; }
+  .login .wr-login form #myModal .modal-header p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px; }
+  .login .wr-login form #myModal .modal-body input {
+    margin-bottom: 10px; }
+  .login .wr-login form #myModal .modal-body button {
+    font-family: 'PT Serif', serif;
+    letter-spacing: 3px;
+    font-size: 16px;
+    -webkit-transition: .2s background-color ease-in;
+    -moz-transition: .2s background-color ease-in;
+    -ms-transition: .2s background-color ease-in;
+    -o-transition: .2s background-color ease-in;
+    transition: .2s background-color ease-in; }
+  .login .wr-login form #myModal .modal-body button:hover {
+    background-color: #29292A; }
+
+.sign-up .colorgraph {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4); }
+.sign-up .wr-sign-up {
+  margin: 50px 0px; }
+  .sign-up .wr-sign-up .tab-menu a.verif {
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: 1px solid #29292A; }
+  .sign-up .wr-sign-up .tab-menu a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #47A1DE;
+    font-weight: 700;
+    padding: 5px 0px;
+    -webkit-transition: .2s color ease-in;
+    -moz-transition: .2s color ease-in;
+    -ms-transition: .2s color ease-in;
+    -o-transition: .2s color ease-in;
+    transition: .2s color ease-in; }
+  .sign-up .wr-sign-up .tab-menu a:hover {
+    text-decoration: none;
+    color: #29292A; }
+  .sign-up .wr-sign-up .tab-menu .active {
+    color: #29292A; }
+  .sign-up .wr-sign-up .form-verif {
+    margin-top: 30px; }
+    .sign-up .wr-sign-up .form-verif #form-verif form input {
+      margin-top: 15px; }
+    .sign-up .wr-sign-up .form-verif #form-verif form .form-checkbox span {
+      letter-spacing: 1px; }
+    .sign-up .wr-sign-up .form-verif #form-verif form button {
+      font-family: 'PT Serif', serif;
+      letter-spacing: 3px;
+      -webkit-transition: .2s background-color ease-in;
+      -moz-transition: .2s background-color ease-in;
+      -ms-transition: .2s background-color ease-in;
+      -o-transition: .2s background-color ease-in;
+      transition: .2s background-color ease-in; }
+    .sign-up .wr-sign-up .form-verif #form-verif form button:hover {
+      background-color: #29292A; }
+    .sign-up .wr-sign-up .form-verif #form-regis form table {
+      width: 100%; }
+      .sign-up .wr-sign-up .form-verif #form-regis form table tr td input, .sign-up .wr-sign-up .form-verif #form-regis form table tr td select {
+        margin-bottom: 15px; }
+      .sign-up .wr-sign-up .form-verif #form-regis form table tr td.first-name {
+        padding-right: 5px; }
+      .sign-up .wr-sign-up .form-verif #form-regis form table tr td.last-name {
+        padding-left: 5px; }
+    .sign-up .wr-sign-up .form-verif #form-regis form .form-checkbox span {
+      letter-spacing: 1px; }
+    .sign-up .wr-sign-up .form-verif #form-regis form button {
+      font-family: 'PT Serif', serif;
+      letter-spacing: 3px;
+      -webkit-transition: .2s background-color ease-in;
+      -moz-transition: .2s background-color ease-in;
+      -ms-transition: .2s background-color ease-in;
+      -o-transition: .2s background-color ease-in;
+      transition: .2s background-color ease-in; }
+    .sign-up .wr-sign-up .form-verif #form-regis form button:hover {
+      background-color: #29292A; }
+
+.header {
+  background-color: #29292A;
+  padding: 20px 0px; }
+  .header .wr-header .logo h1 {
+    color: #e3e3e3;
+    margin: 0px; }
+  .header .wr-header .account button {
+    color: #e3e3e3;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+    padding: 10px 0px;
+    -webkit-transition: .2s color ease-in;
+    -moz-transition: .2s color ease-in;
+    -ms-transition: .2s color ease-in;
+    -o-transition: .2s color ease-in;
+    transition: .2s color ease-in; }
+  .header .wr-header .account button:hover {
+    color: #48CFAD; }
+  .header .wr-header .account .dropdown .dropdown-menu {
+    top: 60px;
+    border-top: 3px solid #48CFAD;
+    border-radius: 0px;
+    padding: 0px; }
+    .header .wr-header .account .dropdown .dropdown-menu li a {
+      letter-spacing: 2px;
+      color: #29292A;
+      padding: 10px 20px;
+      -webkit-transition: .2s color ease-in;
+      -moz-transition: .2s color ease-in;
+      -ms-transition: .2s color ease-in;
+      -o-transition: .2s color ease-in;
+      transition: .2s color ease-in; }
+    .header .wr-header .account .dropdown .dropdown-menu li a:hover {
+      color: #48CFAD; }
+
+@media (max-width: 767px) {
+  .header {
+    margin-bottom: 50px; }
+    .header .wr-header .logo h1 {
+      text-align: center; } }
+.menu-side {
+  position: absolute;
+  background-color: #fff;
+  width: 150px;
+  z-index: 99;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  border: 1px solid #ECECEC; }
+  .menu-side .dropdown-menu-custom {
+    padding: 0px;
+    margin: 0px; }
+    .menu-side .dropdown-menu-custom li {
+      list-style: none;
+      height: 40px;
+      padding: 10px 0px; }
+      .menu-side .dropdown-menu-custom li a {
+        color: #29292A;
+        padding: 10px 90px 10px 15px;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 2px;
+        -webkit-transition: .2s color ease-in, .2s background-color ease-in;
+        -moz-transition: .2s color ease-in, .2s background-color ease-in;
+        -ms-transition: .2s color ease-in, .2s background-color ease-in;
+        -o-transition: .2s color ease-in, .2s background-color ease-in;
+        transition: .2s color ease-in, .2s background-color ease-in; }
+      .menu-side .dropdown-menu-custom li a:hover {
+        text-decoration: none;
+        color: #48CFAD;
+        background-color: #f5f5f5; }
+      .menu-side .dropdown-menu-custom li .aktif {
+        color: #48CFAD; }
+
+.menu {
+  height: 70px;
+  border-bottom: 3px solid #ECECEC;
+  margin-bottom: 50px; }
+  .menu .wr-menu {
+    padding: 24px 0;
+    height: 70px;
+    text-align: center; }
+    .menu .wr-menu .menu-list {
+      display: inline-block;
+      list-style: none;
+      padding: 0px;
+      margin: 0px; }
+      .menu .wr-menu .menu-list .list {
+        text-align: center;
+        float: left; }
+        .menu .wr-menu .menu-list .list a {
+          color: #29292A;
+          font-size: 16px;
+          font-family: 'PT Serif', serif;
+          padding: 0 15px;
+          letter-spacing: 2px;
+          font-weight: 600;
+          border-right: 1px solid #29292A;
+          -webkit-transition: .2s color ease-in;
+          -moz-transition: .2s color ease-in;
+          -ms-transition: .2s color ease-in;
+          -o-transition: .2s color ease-in;
+          transition: .2s color ease-in; }
+        .menu .wr-menu .menu-list .list a.is3 {
+          border: none; }
+        .menu .wr-menu .menu-list .list a:hover {
+          text-decoration: none;
+          color: #48CFAD; }
+        .menu .wr-menu .menu-list .list .aktif {
+          color: #48CFAD; }
+        .menu .wr-menu .menu-list .list .dropdown-custom {
+          top: 44px;
+          border-top: 3px solid #48CFAD;
+          border-radius: 0px;
+          padding: 0px; }
+          .menu .wr-menu .menu-list .list .dropdown-custom li {
+            border-top: 1px solid #ECECEC;
+            display: inline-block;
+            width: 100%; }
+            .menu .wr-menu .menu-list .list .dropdown-custom li a {
+              padding: 10px 20px;
+              font-family: 'PT Serif', serif;
+              letter-spacing: 2px;
+              font-weight: 600;
+              border-right: none; }
+          .menu .wr-menu .menu-list .list .dropdown-custom li:hover .dropdown-custom-2 {
+            display: block; }
+          .menu .wr-menu .menu-list .list .dropdown-custom .dropdown-custom-2 {
+            padding: 0px;
+            list-style: none;
+            display: none;
+            position: absolute;
+            background-color: #e3e3e3;
+            left: 158px;
+            top: -3px;
+            width: 100%;
+            border-left: 3px solid #48CFAD; }
+            .menu .wr-menu .menu-list .list .dropdown-custom .dropdown-custom-2 li {
+              height: 47px; }
+              .menu .wr-menu .menu-list .list .dropdown-custom .dropdown-custom-2 li a {
+                display: block;
+                padding: 12px 20px; }
+              .menu .wr-menu .menu-list .list .dropdown-custom .dropdown-custom-2 li a:hover {
+                background-color: #eaeaea; }
+
+.tab-custom {
+  margin-bottom: 50px; }
+  .tab-custom .heading-tab h3 {
+    margin-top: 0px; }
+  .tab-custom .heading-tab p {
+    font-family: 'PT Serif', serif;
+    margin-bottom: 15px;
+    letter-spacing: 2px; }
+  .tab-custom .pane-custom table {
+    width: 100%; }
+    .tab-custom .pane-custom table p {
+      margin: 0px; }
+    .tab-custom .pane-custom table .cap {
+      text-transform: capitalize; }
+    .tab-custom .pane-custom table .capslock {
+      text-transform: uppercase; }
+    .tab-custom .pane-custom table th, .tab-custom .pane-custom table td {
+      border: 1px solid #ECECEC;
+      padding: 10px 7px; }
+
+/*# sourceMappingURL=custom.css.map */

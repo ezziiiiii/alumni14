@@ -1,0 +1,70 @@
+//----------HEADER----------//
+.header {
+    .wr-header {
+        .logo {
+            h1 {
+                color: $putih;
+                margin: 0px;
+            }
+        }
+        .account {
+            button {
+                color: $putih;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 16px;
+                letter-spacing: 3px;
+                font-weight: 700;
+                background-color: transparent;
+                border: none;
+                border-radius: 0px;
+                padding: 10px 0px;
+                -webkit-transition: .2s color ease-in;
+                -moz-transition: .2s color ease-in;
+                -ms-transition: .2s color ease-in;
+                -o-transition: .2s color ease-in;
+                transition: .2s color ease-in;
+            }
+            button:hover {
+                color: $hijau;
+            }
+            .dropdown {
+                .dropdown-menu {
+                    li {
+                        a {
+                            letter-spacing: 2px;
+                            color: $hitam;
+                            padding: 10px 20px;
+                            -webkit-transition: .2s color ease-in;
+                            -moz-transition: .2s color ease-in;
+                            -ms-transition: .2s color ease-in;
+                            -o-transition: .2s color ease-in;
+                            transition: .2s color ease-in;
+                        }
+                        a:hover {
+                            color: $hijau;
+                        }
+                    }
+                    top: 60px;
+                    border-top: 3px solid $hijau;
+                    border-radius: 0px;
+                    padding: 0px;
+                }
+            }
+        }
+    }
+    background-color: $hitam;
+    padding: 20px 0px;
+}
+
+@media (max-width: 767px) {
+    .header {
+        .wr-header {
+            .logo {
+                h1 {
+                    text-align: center;
+                }
+            }
+        }
+        margin-bottom: 50px;
+    }
+}

@@ -1,0 +1,32 @@
+//----------TAB-CUSTOM----------//
+.tab-custom {
+    .heading-tab {
+        h3 {
+            margin-top: 0px;
+        }
+        p {
+            font-family: 'PT Serif', serif;
+            margin-bottom: 15px;
+            letter-spacing: 2px;
+        }
+    }
+    .pane-custom {
+        table {
+            p {
+                margin: 0px;
+            }
+            .cap {
+                text-transform: capitalize;
+            }
+            .capslock {
+                text-transform: uppercase;
+            }
+            th, td {
+                border: 1px solid $grey;
+                padding: 10px 7px;
+            }
+            width: 100%;
+        }
+    }
+    margin-bottom: 50px;
+}

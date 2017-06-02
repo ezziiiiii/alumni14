@@ -1,0 +1,72 @@
+//----------LOGIN----------//
+.login {
+    .colorgraph {
+    height: 5px;
+    border-top: 0;
+    background: #c4e17f;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    }
+    .wr-login {
+        form {
+            h2 {
+                margin: 0px;
+            }
+            a.forgot-pass {
+                color: $biru-muda;
+                -webkit-transition: .2s color ease-in;
+                -moz-transition: .2s color ease-in;
+                -ms-transition: .2s color ease-in;
+                -o-transition: .2s color ease-in;
+                transition: .2s color ease-in;
+            }
+            a.forgot-pass:hover {
+                text-decoration: none;
+                color: $hitam;
+            }
+            button.submit, a.register {
+                font-family: 'PT Serif', serif;
+                letter-spacing: 3px;
+                 -webkit-transition: .2s background-color ease-in;
+                -moz-transition: .2s background-color ease-in;
+                -ms-transition: .2s background-color ease-in;
+                -o-transition: .2s background-color ease-in;
+                transition: .2s background-color ease-in;
+            }
+            button.submit:hover, a.register:hover {
+                background-color: $hitam;
+            }
+            #myModal {
+                .modal-header {
+                    p {
+                        font-size: 16px;
+                        font-family: 'Open Sans', sans-serif;
+                        letter-spacing: 1px;
+                    }
+                }
+                .modal-body {
+                    input {
+                        margin-bottom: 10px;
+                    }
+                    button {
+                        font-family: 'PT Serif', serif;
+                        letter-spacing: 3px;
+                        font-size: 16px;
+                        -webkit-transition: .2s background-color ease-in;
+                        -moz-transition: .2s background-color ease-in;
+                        -ms-transition: .2s background-color ease-in;
+                        -o-transition: .2s background-color ease-in;
+                        transition: .2s background-color ease-in;
+                    }
+                    button:hover {
+                        background-color: $hitam;
+                    }
+                }
+            }
+        }
+        margin-top: 100px;
+    }
+}
