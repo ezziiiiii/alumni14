@@ -17,7 +17,7 @@ body h4, body h5, body h6 {
   background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
   background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4); }
 .login .wr-login {
-  margin-top: 100px; }
+  margin: 50px 0px; }
   .login .wr-login form h2 {
     margin: 0px; }
   .login .wr-login form a.forgot-pass {
@@ -94,8 +94,11 @@ body h4, body h5, body h6 {
     margin-top: 30px; }
     .sign-up .wr-sign-up .form-verif #form-verif form input {
       margin-top: 15px; }
+    .sign-up .wr-sign-up .form-verif #form-verif form .form-checkbox input {
+      margin-right: 5px; }
     .sign-up .wr-sign-up .form-verif #form-verif form .form-checkbox span {
-      letter-spacing: 1px; }
+      letter-spacing: 1px;
+      font-size: 16px; }
     .sign-up .wr-sign-up .form-verif #form-verif form button {
       font-family: 'PT Serif', serif;
       letter-spacing: 3px;
@@ -110,12 +113,21 @@ body h4, body h5, body h6 {
       width: 100%; }
       .sign-up .wr-sign-up .form-verif #form-regis form table tr td input, .sign-up .wr-sign-up .form-verif #form-regis form table tr td select {
         margin-bottom: 15px; }
+      .sign-up .wr-sign-up .form-verif #form-regis form table tr td .kelas select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: transparent url("../images/double-caret.png") no-repeat 97% 50%;
+        background-size: 15px; }
       .sign-up .wr-sign-up .form-verif #form-regis form table tr td.first-name {
         padding-right: 5px; }
       .sign-up .wr-sign-up .form-verif #form-regis form table tr td.last-name {
         padding-left: 5px; }
+    .sign-up .wr-sign-up .form-verif #form-regis form .form-checkbox input {
+      margin-right: 5px; }
     .sign-up .wr-sign-up .form-verif #form-regis form .form-checkbox span {
-      letter-spacing: 1px; }
+      letter-spacing: 1px;
+      font-size: 16px; }
     .sign-up .wr-sign-up .form-verif #form-regis form button {
       font-family: 'PT Serif', serif;
       letter-spacing: 3px;
@@ -130,8 +142,11 @@ body h4, body h5, body h6 {
 .header {
   background-color: #29292A;
   padding: 20px 0px; }
+  .header .wr-header .logo a:hover {
+    text-decoration: none; }
+  .header .wr-header .logo a {
+    color: #e3e3e3; }
   .header .wr-header .logo h1 {
-    color: #e3e3e3;
     margin: 0px; }
   .header .wr-header .account button {
     color: #e3e3e3;
@@ -159,6 +174,7 @@ body h4, body h5, body h6 {
       letter-spacing: 2px;
       color: #29292A;
       padding: 10px 20px;
+      border-top: 1px solid #ECECEC;
       -webkit-transition: .2s color ease-in;
       -moz-transition: .2s color ease-in;
       -ms-transition: .2s color ease-in;
@@ -170,15 +186,18 @@ body h4, body h5, body h6 {
 @media (max-width: 767px) {
   .header {
     margin-bottom: 50px; }
-    .header .wr-header .logo h1 {
-      text-align: center; } }
+    .header .wr-header .logo {
+      margin-bottom: 15px; }
+      .header .wr-header .logo h1 {
+        text-align: center; } }
 .menu-side {
   position: absolute;
   background-color: #fff;
   width: 150px;
   z-index: 99;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  border: 1px solid #ECECEC; }
+  border: 1px solid #ECECEC;
+  border-top: 3px solid #48CFAD; }
   .menu-side .dropdown-menu-custom {
     padding: 0px;
     margin: 0px; }
@@ -191,6 +210,7 @@ body h4, body h5, body h6 {
         padding: 10px 90px 10px 15px;
         font-family: 'Open Sans', sans-serif;
         letter-spacing: 2px;
+        border-top: 1px solid #ECECEC;
         -webkit-transition: .2s color ease-in, .2s background-color ease-in;
         -moz-transition: .2s color ease-in, .2s background-color ease-in;
         -ms-transition: .2s color ease-in, .2s background-color ease-in;
@@ -276,22 +296,109 @@ body h4, body h5, body h6 {
 
 .tab-custom {
   margin-bottom: 50px; }
-  .tab-custom .heading-tab h3 {
+  .tab-custom .heading-tab h2 {
     margin-top: 0px; }
-  .tab-custom .heading-tab p {
+  .tab-custom .heading-tab h3 {
+    font-weight: 600;
+    margin-top: 0px; }
+  .tab-custom .heading-tab h4 {
     font-family: 'PT Serif', serif;
     margin-bottom: 15px;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    font-weight: 400; }
   .tab-custom .pane-custom table {
     width: 100%; }
     .tab-custom .pane-custom table p {
-      margin: 0px; }
+      margin: 0px;
+      font-size: 16px;
+      font-family: 'Open Sans', sans-serif;
+      letter-spacing: 2px; }
     .tab-custom .pane-custom table .cap {
       text-transform: capitalize; }
     .tab-custom .pane-custom table .capslock {
       text-transform: uppercase; }
     .tab-custom .pane-custom table th, .tab-custom .pane-custom table td {
       border: 1px solid #ECECEC;
-      padding: 10px 7px; }
+      padding: 10px; }
+
+@media (max-width: 767px) {
+  .tab-custom .pane-custom table p {
+    font-size: 12px;
+    letter-spacing: 1px; }
+  .tab-custom .pane-custom table th, .tab-custom .pane-custom table td {
+    padding: 10px 5px; } }
+.edit-profile {
+  margin: 50px 0px; }
+  .edit-profile .colorgraph {
+    height: 5px;
+    border-top: 0;
+    background: #c4e17f;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4); }
+  .edit-profile .wr-edit-profile form h2 {
+    margin-top: 0px; }
+  .edit-profile .wr-edit-profile form button.update, .edit-profile .wr-edit-profile form a.cancel {
+    font-family: 'PT Serif', serif;
+    letter-spacing: 3px;
+    -webkit-transition: .2s background-color ease-in;
+    -moz-transition: .2s background-color ease-in;
+    -ms-transition: .2s background-color ease-in;
+    -o-transition: .2s background-color ease-in;
+    transition: .2s background-color ease-in; }
+  .edit-profile .wr-edit-profile form button.update:hover, .edit-profile .wr-edit-profile form a.cancel:hover {
+    background-color: #29292A; }
+  .edit-profile .wr-edit-profile form table {
+    width: 100%; }
+    .edit-profile .wr-edit-profile form table tr td input, .edit-profile .wr-edit-profile form table tr td select {
+      margin-bottom: 15px; }
+    .edit-profile .wr-edit-profile form table tr td .kelas select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background: transparent url("../images/double-caret.png") no-repeat 97% 50%;
+      background-size: 15px; }
+    .edit-profile .wr-edit-profile form table tr td.first-name {
+      padding-right: 5px; }
+    .edit-profile .wr-edit-profile form table tr td.last-name {
+      padding-left: 5px; }
+
+@media (max-width: 767px) {
+  .edit-profile {
+    margin-top: 0px; } }
+.change-password {
+  margin: 50px 0px; }
+  .change-password .colorgraph {
+    height: 5px;
+    border-top: 0;
+    background: #c4e17f;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4); }
+  .change-password .wr-change-password form h2 {
+    margin: 0px; }
+  .change-password .wr-change-password form button.update, .change-password .wr-change-password form a.cancel {
+    font-family: 'PT Serif', serif;
+    letter-spacing: 3px;
+    -webkit-transition: .2s background-color ease-in;
+    -moz-transition: .2s background-color ease-in;
+    -ms-transition: .2s background-color ease-in;
+    -o-transition: .2s background-color ease-in;
+    transition: .2s background-color ease-in; }
+  .change-password .wr-change-password form button.update:hover, .change-password .wr-change-password form a.cancel:hover {
+    background-color: #29292A; }
+  .change-password .wr-change-password form .form-checkbox input {
+    margin-right: 5px; }
+  .change-password .wr-change-password form .form-checkbox span {
+    letter-spacing: 1px;
+    font-size: 16px; }
+  .change-password .wr-change-password form table {
+    width: 100%; }
+    .change-password .wr-change-password form table tr td input {
+      margin-bottom: 15px; }
 
 /*# sourceMappingURL=custom.css.map */

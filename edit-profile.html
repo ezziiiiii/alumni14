@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Data Alumni 14</title>
+
+    <!-- CSS-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet"> 
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="header">
+        <div class="wr-header container">
+            <div class="row">
+                <div class="logo col-md-9 col-sm-9">
+                    <h1>
+                        <a href="#">GENERATION 14</a>
+                    </h1>
+                </div><!--END OF .LOGO-->
+                <div class="account col-md-3 col-sm-3">
+                  <div class="dropdown-custom pull-left visible-xs">
+                    <button class="btn btn-primary show-menu" type="button">
+                        <i class="fa fa-users" aria-hidden="true"></i> KELAS
+                    </button>
+                  </div> 
+                  <div class="dropdown pull-right">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                        <i class="fa fa-user" aria-hidden="true"></i> JONI
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-cogs" aria-hidden="true"></i> Edit Profile
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-lock" aria-hidden="true"></i> Change Password
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-sign-out" aria-hidden="true"></i> Log Out
+                            </a>
+                        </li>
+                    </ul>
+                  </div> 
+                  <div class="clearfix"></div>
+                </div><!--END OF .ACCOUNT-->
+            </div><!--END OF .ROW-->
+        </div><!--END OF .WR-HEADER-->
+    </div><!--END OF .HEADER-->
+
+    <div class="menu-side hidden-sm hidden-md hidden-lg" id="menu-side">
+        <ul class="dropdown-menu-custom" id="tab">
+            <li>
+                <a href="#IPA1" class="aktif" data-toggle="tab">IPA 1</a>
+            </li>
+            <li>
+                <a href="#IPA2" data-toggle="tab">IPA 2</a>
+            </li>
+            <li>
+                <a href="#IPA3" data-toggle="tab">IPA 3</a>
+            </li>
+            <li>
+                <a href="#IPA4" data-toggle="tab">IPA 4</a>
+            </li>
+            <li>
+                <a href="#IPS1" data-toggle="tab">IPS 1</a>
+            </li>
+            <li>
+                <a href="#IPS2" data-toggle="tab">IPS 2</a>
+            </li>
+            <li>
+                <a href="#IPS3" data-toggle="tab">IPS 3</a>
+            </li>
+        </ul><!--END OF .DROPDOWN-MENU-CUSTOM-->
+    </div><!--END OF .MENU-SIDE-->
+
+    <div class="edit-profile">
+      <div class="container">
+
+        <div class="row wr-edit-profile">
+          <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+            <form role="form">
+              <fieldset>
+                <h2 class="text-center">Update Your Profile</h2>
+                <hr class="colorgraph">
+                <table>
+                    <tr>
+                        <td class="first-name">
+                            <input type="text" class="form-control input-lg" placeholder="First Name...">
+                        </td>
+                        <td class="last-name">
+                            <input type="text" class="form-control input-lg" placeholder="Last Name...">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div class="kelas">
+                                <select class="select form-control input-lg" id="kelas">
+                                    <option>
+                                        <p>Class...</p>
+                                    </option>
+                                    <option>
+                                        <p>IPA 1</p>
+                                    </option>
+                                    <option>
+                                        <p>IPA 2</p>
+                                    </option>
+                                    <option>
+                                        <p>IPA 3</p>
+                                    </option>
+                                    <option>
+                                        <p>IPA 4</p>
+                                    </option>
+                                    <option>
+                                        <p>IPS 1</p>
+                                    </option>
+                                    <option>
+                                        <p>IPS 2</p>
+                                    </option>
+                                    <option>
+                                        <p>IPS 3</p>
+                                    </option>
+                                </select>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="email" class="form-control input-lg" placeholder="Email Address...">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="text" class="form-control input-lg" placeholder="Phone Number...">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="text" class="form-control input-lg" placeholder="Whatsapp Number...">
+                        </td>
+                    </tr>
+                </table>
+                <hr class="colorgraph">
+                <div class="row">
+                  <div class="col-xs-6 col-sm-6 col-md-6">
+                    <button type="submit" class="update btn btn-lg btn-success btn-block">
+                      <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Update
+                    </button>
+                  </div>
+                  <div class="col-xs-6 col-sm-6 col-md-6">
+                    <a href="#" class="cancel btn btn-lg btn-primary btn-block">
+                      <i class="fa fa-ban" aria-hidden="true"></i> Cancel
+                    </a>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div><!--END OF .WR-EDIT-PROFILE-->
+
+      </div><!--END OF .CONTAINER-->
+    </div><!--END OF .EDIT-PROFILE-->
+
+    <script type="text/javascript">
+
+    //script untuk remember me
+      $(function(){
+          $('.button-checkbox').each(function(){
+          var $widget = $(this),
+            $button = $widget.find('button'),
+            $checkbox = $widget.find('input:checkbox'),
+            color = $button.data('color'),
+            settings = {
+                on: {
+                  icon: 'glyphicon glyphicon-check'
+                },
+                off: {
+                  icon: 'glyphicon glyphicon-unchecked'
+                }
+            };
+
+          $button.on('click', function () {
+            $checkbox.prop('checked', !$checkbox.is(':checked'));
+            $checkbox.triggerHandler('change');
+            updateDisplay();
+          });
+
+          $checkbox.on('change', function () {
+            updateDisplay();
+          });
+
+          function updateDisplay() {
+            var isChecked = $checkbox.is(':checked');
+            // Set the button's state
+            $button.data('state', (isChecked) ? "on" : "off");
+
+            // Set the button's icon
+            $button.find('.state-icon')
+              .removeClass()
+              .addClass('state-icon ' + settings[$button.data('state')].icon);
+
+            // Update the button's color
+            if (isChecked) {
+              $button
+                .removeClass('btn-default')
+                .addClass('btn-' + color + ' active');
+            }
+            else
+            {
+              $button
+                .removeClass('btn-' + color + ' active')
+                .addClass('btn-default');
+            }
+          }
+          function init() {
+            updateDisplay();
+            // Inject the icon if applicable
+            if ($button.find('.state-icon').length == 0) {
+              $button.prepend('<i class="state-icon ' + settings[$button.data('state')].icon + '"></i> ');
+            }
+          }
+          init();
+        });
+      });
+
+      // script untuk show password
+      $(document).ready(function() {
+        $('.show-pass').click(function() {
+            if($(this).is(':checked')){
+                $('.pass').attr('type','text');
+            } else {
+                $('.pass').attr('type','password');
+            }
+        });
+      });
+
+      // script untuk toggle .show-menu
+      $(document).ready(function() {
+          $('#menu-side').css({'display':'none'});
+          $('.show-menu').on('click', function() {
+            $('#menu-side').animate({width: 'toggle'});
+            $('#menu-side').css({'display': 'block', 'top': 137 });
+          });
+      });
+    </script>
+
+  </body>
+</html>

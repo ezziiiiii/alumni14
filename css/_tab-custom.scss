@@ -1,19 +1,27 @@
 //----------TAB-CUSTOM----------//
 .tab-custom {
     .heading-tab {
-        h3 {
+        h2 {
             margin-top: 0px;
         }
-        p {
+        h3 {
+            font-weight: 600;
+            margin-top: 0px;
+        }
+        h4 {
             font-family: 'PT Serif', serif;
             margin-bottom: 15px;
             letter-spacing: 2px;
+            font-weight: 400;
         }
     }
     .pane-custom {
         table {
             p {
                 margin: 0px;
+                font-size: 16px;
+                font-family: 'Open Sans', sans-serif;
+                letter-spacing: 2px;
             }
             .cap {
                 text-transform: capitalize;
@@ -23,10 +31,28 @@
             }
             th, td {
                 border: 1px solid $grey;
-                padding: 10px 7px;
+                padding: 10px;
             }
             width: 100%;
         }
     }
     margin-bottom: 50px;
+}
+
+//----------DEVICE SMARTPHONE (MAX-WIDTH = 767)----------//
+
+@media (max-width: 767px) {
+    .tab-custom {
+        .pane-custom {
+            table {
+                p {
+                    font-size: 12px;
+                    letter-spacing: 1px;
+                }
+                th, td {
+                    padding: 10px 5px;
+                }
+            }
+        }
+    }
 }

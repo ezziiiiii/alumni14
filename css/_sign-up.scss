@@ -45,8 +45,12 @@
                         margin-top: 15px;
                     }
                     .form-checkbox {
+                        input {
+                            margin-right: 5px;
+                        }
                         span {
                             letter-spacing: 1px;
+                            font-size: 16px;
                         }
                     }
                     button {
@@ -71,6 +75,15 @@
                                 input, select {
                                     margin-bottom: 15px;
                                 }
+                                .kelas {
+                                    select {
+                                        -webkit-appearance: none;
+                                        -moz-appearance: none;
+                                        appearance:none;
+                                        background: transparent url("../images/double-caret.png") no-repeat 97% 50%;
+                                        background-size: 15px;
+                                    }
+                                }
                             }
                             td.first-name {
                                 padding-right: 5px;
@@ -82,8 +95,12 @@
                         width: 100%;
                     }
                     .form-checkbox {
+                        input {
+                            margin-right: 5px;
+                        }
                         span {
                             letter-spacing: 1px;
+                            font-size: 16px;
                         }
                     }
                     button {
