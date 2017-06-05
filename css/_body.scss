@@ -10,4 +10,10 @@ body {
         font-weight: 600;
         letter-spacing: 3px;
     }
+    .capital {
+        text-transform: capitalize;
+    }
+    .capslock {
+        text-transform: uppercase;
+    }
 }

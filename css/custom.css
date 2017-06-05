@@ -6,6 +6,10 @@ body h4, body h5, body h6 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   letter-spacing: 3px; }
+body .capital {
+  text-transform: capitalize; }
+body .capslock {
+  text-transform: uppercase; }
 
 .login .colorgraph {
   height: 5px;
@@ -117,8 +121,8 @@ body h4, body h5, body h6 {
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
-        background: transparent url("../images/double-caret.png") no-repeat 97% 50%;
-        background-size: 15px; }
+        background: transparent url("../images/double-caret.png") no-repeat 98% 50%;
+        background-size: 10px; }
       .sign-up .wr-sign-up .form-verif #form-regis form table tr td.first-name {
         padding-right: 5px; }
       .sign-up .wr-sign-up .form-verif #form-regis form table tr td.last-name {
@@ -400,5 +404,9 @@ body h4, body h5, body h6 {
     width: 100%; }
     .change-password .wr-change-password form table tr td input {
       margin-bottom: 15px; }
+
+.error .wr-error img {
+  width: 150px;
+  height: 150px; }
 
 /*# sourceMappingURL=custom.css.map */

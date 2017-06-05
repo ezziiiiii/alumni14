@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Data Alumni 14</title>
+
+    <!-- CSS-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet"> 
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <div class="error container">
+
+        <div class="wr-error row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+                <br>
+                <h4 class="capital">7 hands 1 goals </h4>
+                <p><img src="images/error.png" alt=""></p>
+                <h2>
+                    <i class="fa fa-exclamation-triangle" style="color:red"></i> Page not found <small>404 error</small>
+                </h2>
+                <p>Click here to visit our home page</p>
+                <p><a href="#">7hands1goals.com</a></p>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript">
+
+    //script untuk remember me
+      $(function(){
+          $('.button-checkbox').each(function(){
+          var $widget = $(this),
+            $button = $widget.find('button'),
+            $checkbox = $widget.find('input:checkbox'),
+            color = $button.data('color'),
+            settings = {
+                on: {
+                  icon: 'glyphicon glyphicon-check'
+                },
+                off: {
+                  icon: 'glyphicon glyphicon-unchecked'
+                }
+            };
+
+          $button.on('click', function () {
+            $checkbox.prop('checked', !$checkbox.is(':checked'));
+            $checkbox.triggerHandler('change');
+            updateDisplay();
+          });
+
+          $checkbox.on('change', function () {
+            updateDisplay();
+          });
+
+          function updateDisplay() {
+            var isChecked = $checkbox.is(':checked');
+            // Set the button's state
+            $button.data('state', (isChecked) ? "on" : "off");
+
+            // Set the button's icon
+            $button.find('.state-icon')
+              .removeClass()
+              .addClass('state-icon ' + settings[$button.data('state')].icon);
+
+            // Update the button's color
+            if (isChecked) {
+              $button
+                .removeClass('btn-default')
+                .addClass('btn-' + color + ' active');
+            }
+            else
+            {
+              $button
+                .removeClass('btn-' + color + ' active')
+                .addClass('btn-default');
+            }
+          }
+          function init() {
+            updateDisplay();
+            // Inject the icon if applicable
+            if ($button.find('.state-icon').length == 0) {
+              $button.prepend('<i class="state-icon ' + settings[$button.data('state')].icon + '"></i> ');
+            }
+          }
+          init();
+        });
+      });
+
+      // script untuk show password
+      $(document).ready(function() {
+        $('.show-pass').click(function() {
+            if($(this).is(':checked')){
+                $('.pass').attr('type','text');
+            } else {
+                $('.pass').attr('type','password');
+            }
+        });
+      });
+    </script>
+
+  </body>
+</html>
