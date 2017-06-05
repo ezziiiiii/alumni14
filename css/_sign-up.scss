@@ -72,17 +72,8 @@
                     table {
                         tr {
                             td {
-                                input, select {
+                                input, .select {
                                     margin-bottom: 15px;
-                                }
-                                .kelas {
-                                    select {
-                                        -webkit-appearance: none;
-                                        -moz-appearance: none;
-                                        appearance:none;
-                                        background: transparent url("../images/double-caret.png") no-repeat 98% 50%;
-                                        background-size: 10px;
-                                    }
                                 }
                             }
                             td.first-name {
@@ -103,7 +94,7 @@
                             font-size: 16px;
                         }
                     }
-                    button {
+                    button.sign-up {
                         font-family: 'PT Serif', serif;
                         letter-spacing: 3px;
                         -webkit-transition: .2s background-color ease-in;
@@ -112,7 +103,7 @@
                         -o-transition: .2s background-color ease-in;
                         transition: .2s background-color ease-in;
                     }
-                    button:hover {
+                    button.sign-up:hover {
                         background-color: $hitam;
                     }
                 }

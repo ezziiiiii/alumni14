@@ -13,12 +13,18 @@
     <link rel="stylesheet" href="css/font-awesome.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+    
+    <!-- page style -->
+    <link rel="stylesheet" href="css/bootstrap-select.css">
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- page js -->
+    <script src="js/bootstrap-select.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -108,16 +114,16 @@
                 <table>
                     <tr>
                         <td class="first-name">
-                            <input type="text" class="form-control input-lg" placeholder="First Name...">
+                            <input type="text" class="form-control input-md" placeholder="First Name...">
                         </td>
                         <td class="last-name">
-                            <input type="text" class="form-control input-lg" placeholder="Last Name...">
+                            <input type="text" class="form-control input-md" placeholder="Last Name...">
                         </td>
                     </tr>
                     <tr>
                         <td colspan="2">
                             <div class="kelas">
-                                <select class="select form-control input-lg" id="kelas">
+                                <select class="select selectpicker show-tick form-control input-md" id="kelas">
                                     <option>
                                         <p>Class...</p>
                                     </option>
@@ -148,29 +154,29 @@
                     </tr>
                     <tr>
                         <td colspan="2">
-                            <input type="email" class="form-control input-lg" placeholder="Email Address...">
+                            <input type="email" class="form-control input-md" placeholder="Email Address...">
                         </td>
                     </tr>
                     <tr>
                         <td colspan="2">
-                            <input type="text" class="form-control input-lg" placeholder="Phone Number...">
+                            <input type="text" class="form-control input-md" placeholder="Phone Number...">
                         </td>
                     </tr>
                     <tr>
                         <td colspan="2">
-                            <input type="text" class="form-control input-lg" placeholder="Whatsapp Number...">
+                            <input type="text" class="form-control input-md" placeholder="Whatsapp Number...">
                         </td>
                     </tr>
                 </table>
                 <hr class="colorgraph">
                 <div class="row">
                   <div class="col-xs-6 col-sm-6 col-md-6">
-                    <button type="submit" class="update btn btn-lg btn-success btn-block">
+                    <button type="submit" class="update btn btn-md btn-success btn-block">
                       <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Update
                     </button>
                   </div>
                   <div class="col-xs-6 col-sm-6 col-md-6">
-                    <a href="#" class="cancel btn btn-lg btn-primary btn-block">
+                    <a href="#" class="cancel btn btn-md btn-primary btn-block">
                       <i class="fa fa-ban" aria-hidden="true"></i> Cancel
                     </a>
                   </div>
@@ -182,6 +188,10 @@
 
       </div><!--END OF .CONTAINER-->
     </div><!--END OF .EDIT-PROFILE-->
+    
+    <footer class="text-center">
+      <p class="capital"> 7hands1goals.com &copy; 2017 || all right reserved.</p>
+    </footer>
 
     <script type="text/javascript">
 
