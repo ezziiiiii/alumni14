@@ -36,4 +36,11 @@
     box-shadow: $shadow-dropdown;
     border: 1px solid $grey;
     border-top: 3px solid $hijau;
+    top: 137px;
+}
+
+@media (max-width: 320px) {
+    .menu-side {
+        top: 132px;
+    }
 }

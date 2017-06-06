@@ -70,3 +70,21 @@
         margin: 50px 0px;
     }
 }
+
+@media (max-width: 320px) {
+    .login {
+        .wr-login {
+            form {
+                h2 {
+                    font-size: 28px;
+                }
+                a.forgot-pass {
+                    font-size: 12px;
+                }
+                button.remember {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

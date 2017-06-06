@@ -56,3 +56,19 @@
         }
     }
 }
+
+@media (max-width: 320px) {
+    .tab-custom {
+        .heading-tab {
+            h2 {
+                font-size: 28px;
+            }
+            h3 {
+                font-size: 22px;
+            }
+            h4 {
+                font-size: 16px;
+            }
+        }
+    }
+}

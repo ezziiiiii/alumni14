@@ -62,6 +62,13 @@ body .capslock {
   .login .wr-login form #myModal .modal-body button:hover {
     background-color: #29292A; }
 
+@media (max-width: 320px) {
+  .login .wr-login form h2 {
+    font-size: 28px; }
+  .login .wr-login form a.forgot-pass {
+    font-size: 12px; }
+  .login .wr-login form button.remember {
+    font-size: 12px; } }
 .sign-up .colorgraph {
   height: 5px;
   border-top: 0;
@@ -137,6 +144,12 @@ body .capslock {
     .sign-up .wr-sign-up .form-verif #form-regis form button.sign-up:hover {
       background-color: #29292A; }
 
+@media (max-width: 320px) {
+  .sign-up .wr-sign-up .tab-menu #form-verif h2, .sign-up .wr-sign-up .tab-menu #form-regis h2 {
+    font-size: 28px; }
+  .sign-up .wr-sign-up .tab-menu a {
+    font-size: 14px;
+    letter-spacing: 1px; } }
 .header {
   background-color: #29292A;
   padding: 20px 0px; }
@@ -188,6 +201,9 @@ body .capslock {
       margin-bottom: 15px; }
       .header .wr-header .logo h1 {
         text-align: center; } }
+@media (max-width: 320px) {
+  .header .wr-header .logo h1 {
+    font-size: 31px; } }
 .menu-side {
   position: absolute;
   background-color: #fff;
@@ -195,7 +211,8 @@ body .capslock {
   z-index: 99;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   border: 1px solid #ECECEC;
-  border-top: 3px solid #48CFAD; }
+  border-top: 3px solid #48CFAD;
+  top: 137px; }
   .menu-side .dropdown-menu-custom {
     padding: 0px;
     margin: 0px; }
@@ -221,6 +238,9 @@ body .capslock {
       .menu-side .dropdown-menu-custom li .aktif {
         color: #48CFAD; }
 
+@media (max-width: 320px) {
+  .menu-side {
+    top: 132px; } }
 .menu {
   height: 70px;
   border-bottom: 3px solid #ECECEC;
@@ -325,6 +345,13 @@ body .capslock {
     letter-spacing: 1px; }
   .tab-custom .pane-custom table th, .tab-custom .pane-custom table td {
     padding: 10px 5px; } }
+@media (max-width: 320px) {
+  .tab-custom .heading-tab h2 {
+    font-size: 28px; }
+  .tab-custom .heading-tab h3 {
+    font-size: 22px; }
+  .tab-custom .heading-tab h4 {
+    font-size: 16px; } }
 .edit-profile {
   margin: 50px 0px; }
   .edit-profile .colorgraph {
@@ -360,6 +387,9 @@ body .capslock {
 @media (max-width: 767px) {
   .edit-profile {
     margin-top: 0px; } }
+@media (max-width: 320px) {
+  .edit-profile .wr-edit-profile form h2 {
+    font-size: 28px; } }
 .change-password {
   margin: 50px 0px; }
   .change-password .colorgraph {
@@ -393,6 +423,9 @@ body .capslock {
     .change-password .wr-change-password form table tr td input {
       margin-bottom: 15px; }
 
+@media (max-width: 320px) {
+  .change-password .wr-change-password form h2 {
+    font-size: 28px; } }
 .error .wr-error {
   margin: 50px 0px; }
   .error .wr-error img {

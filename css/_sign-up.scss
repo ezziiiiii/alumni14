@@ -114,3 +114,21 @@
         margin: 50px 0px;
     }
 }
+
+@media (max-width: 320px) {
+    .sign-up {
+        .wr-sign-up {
+            .tab-menu {
+                #form-verif, #form-regis {
+                    h2 {
+                        font-size: 28px;
+                    }
+                }
+                a {
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+}

@@ -75,3 +75,15 @@
         margin-bottom: 50px;
     }
 }
+
+@media (max-width: 320px) {
+    .header {
+        .wr-header {
+            .logo {
+                h1 {
+                    font-size: 31px;
+                }
+            }
+        }
+    }
+}
