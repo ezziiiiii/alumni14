@@ -438,4 +438,25 @@ footer {
     color: #b6b6b6;
     margin: 0px; }
 
+.header-welcome {
+  padding: 10px 0px; }
+  .header-welcome .wr-header-welcome .nav-pills li a {
+    background-color: transparent;
+    font-family: 'Open Sans', sans-serif;
+    color: #29292A;
+    font-size: 16px;
+    letter-spacing: 2px; }
+  .header-welcome .wr-header-welcome .nav-pills li a:hover {
+    background-color: none; }
+
+.page-welcome {
+  margin: 50px 0px; }
+  .page-welcome .wr-page-welcome .pembuka h1, .page-welcome .wr-page-welcome .pembuka h2, .page-welcome .wr-page-welcome .pembuka h4 {
+    margin: 0px;
+    font-family: 'Raleway', sans-serif; }
+  .page-welcome .wr-page-welcome .pembuka h1 {
+    font-size: 40px; }
+  .page-welcome .wr-page-welcome .pembuka h2, .page-welcome .wr-page-welcome .pembuka h4 {
+    margin-top: 15px; }
+
 /*# sourceMappingURL=custom.css.map */
