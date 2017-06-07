@@ -442,9 +442,10 @@ footer {
   padding: 10px 0px; }
   .header-welcome .wr-header-welcome .nav-pills li a {
     background-color: transparent;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Serif', serif;
     color: #29292A;
     font-size: 16px;
+    font-weight: 600;
     letter-spacing: 2px; }
   .header-welcome .wr-header-welcome .nav-pills li a:hover {
     background-color: none; }
